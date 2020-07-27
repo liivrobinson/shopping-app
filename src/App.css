@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+  /* border: thin red solid; */
+}
+
+.header-container{
+  /* border: thin green solid; */
+  background-color: rgb(64, 166, 255);
+}
+
+h1{
+  text-align: center;
+  padding: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imput-group input {
+  width: 2em;
+  height: 2em;
+  display: block;
+}
+
+.imput-group label {
+  /* border: thin red solid; */
+  display: block;
+  padding: 1em;
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imput-group {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  border-bottom: thin grey solid;
+  background-color: rgb(196, 232, 244);
+}
